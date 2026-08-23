@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Drop Down Status Bar</string>
+    <string name="app_name">下拉通知欄</string>
     <string name="setup_title">Reach notifications in one tap</string>
     <string name="setup_description">Enable the service once, then tap the app icon or a home-screen widget whenever you want to open the system panel.</string>
     <string name="service_enabled">Service enabled</string>

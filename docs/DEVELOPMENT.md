@@ -54,9 +54,9 @@ macOS 或 Linux：
 
 Debug 版本具有以下識別：
 
-- 版本名稱：`1.0.0-debug`
-- App 名稱：`下拉通知欄（Debug）`
-- APK：`dropdown-status-bar-v1.0.0-debug.apk`
+- 版本名稱：`1.0.1-debug`
+- App 名稱：`下拉通知欄`
+- APK：`dropdown-status-bar-v1.0.1-debug.apk`
 - 使用 Android Debug Key 簽署
 
 ## 程式品質驗證

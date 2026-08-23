@@ -2,11 +2,12 @@
 
 ## 版本資訊
 
-- 版本：`1.0.0-debug`
-- Git 標籤：`v1.0.0-debug`
+- 版本：`1.0.1-debug`
+- Git 標籤：`v1.0.1-debug`
 - 發布狀態：GitHub Pre-release
-- APK：`dropdown-status-bar-v1.0.0-debug.apk`
+- APK：`dropdown-status-bar-v1.0.1-debug.apk`
 - 簽章：Android Debug Key
+- SHA-256：`e3b7a0621510a6de614a06000a8ff4d1c7c29daf09c1f518ad9a9b3751f174ef`
 
 ## 重要警告
 
@@ -17,6 +18,12 @@
 - 未來版本可能無法直接覆蓋安裝，屆時需要先移除舊版。
 - 不應將此 APK 提交至 Google Play 或其他正式商店。
 - 不承諾資料、設定或升級相容性。
+
+## 本次更新
+
+- App 名稱統一為「下拉通知欄」。
+- 更新為活潑、友善、年輕化的粗線條卡通圖示。
+- 使用符合安全區規格的前景、背景及單色 Adaptive Icon 資源。
 
 ## 已驗證項目
 
