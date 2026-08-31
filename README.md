@@ -2,7 +2,7 @@
 
 [![授權條款](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84.svg)](docs/DEVELOPMENT.md)
-[![版本](https://img.shields.io/badge/版本-1.0.1--debug-orange.svg)](https://github.com/mark216tw/android-drop-down-status-bar/releases)
+[![版本](https://img.shields.io/badge/版本-1.0.2--debug-orange.svg)](https://github.com/mark216tw/android-drop-down-status-bar/releases)
 
 「下拉通知欄」是一個輕量 Android 工具，讓使用者透過 App 圖示或桌面小工具，一鍵展開通知欄或快速設定。主要用途是改善大螢幕及單手操作時，不容易觸碰螢幕頂端的問題。
 
@@ -15,6 +15,7 @@
 - 一鍵展開通知欄
 - 一鍵展開快速設定
 - 通知欄與快速設定 `1×1` 桌面小工具
+- 上方快速設定、下方通知欄的 `1×1` 雙功能小工具
 - 無障礙服務啟用、狀態檢查及醒目權限說明
 - 成功執行後的選用震動回饋
 - 長按 App 圖示可開啟設定
@@ -31,8 +32,8 @@
 ## 安裝 Debug 版本
 
 1. 前往 [GitHub Releases](https://github.com/mark216tw/android-drop-down-status-bar/releases)。
-2. 找到標示為 **Pre-release** 的 `v1.0.1-debug`。
-3. 下載 `dropdown-status-bar-v1.0.1-debug.apk`。
+2. 找到標示為 **Pre-release** 的 `v1.0.2-debug`。
+3. 下載 `dropdown-status-bar-v1.0.2-debug.apk`。
 4. 依 Android 提示允許該來源安裝未知應用程式。
 5. 安裝後的 App 名稱為「下拉通知欄」；請由 APK 檔名及版本資訊確認這是 Debug 測試版。
 
@@ -70,7 +71,7 @@ macOS 或 Linux：
 產出的 APK 位於：
 
 ```text
-app/build/outputs/apk/debug/dropdown-status-bar-v1.0.1-debug.apk
+app/build/outputs/apk/debug/dropdown-status-bar-v1.0.2-debug.apk
 ```
 
 開發環境與驗證指令請參閱[開發文件](docs/DEVELOPMENT.md)。

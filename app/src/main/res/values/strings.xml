@@ -18,7 +18,7 @@
     <string name="test_notifications">Notifications</string>
     <string name="test_quick_settings">Quick settings</string>
     <string name="widget_title">Home-screen widgets</string>
-    <string name="widget_description">Long-press an empty area on the home screen, choose Widgets, then add either the Notifications or Quick settings 1×1 widget.</string>
+    <string name="widget_description">Long-press an empty area on the home screen, choose Widgets, then add a Notifications, Quick settings, or combined 1×1 widget.</string>
     <string name="privacy_summary_title">Accessibility and privacy</string>
     <string name="accessibility_disclosure">The accessibility service only requests the Android global action that opens notifications or quick settings. It does not inspect screen content, read notifications, or collect typed text.</string>
     <string name="accessibility_disclosure_title">Before you enable the service</string>
@@ -33,6 +33,8 @@
     <string name="widget_quick_settings_description">One-tap quick settings panel</string>
     <string name="widget_notification_name">Notifications</string>
     <string name="widget_quick_settings_name">Quick settings</string>
+    <string name="widget_combined_name">Quick settings + notifications</string>
+    <string name="widget_combined_description">A 1×1 widget with quick settings on top and notifications on the bottom</string>
     <string name="settings">Settings</string>
     <string name="open_app_settings">Open Drop Down Status Bar settings</string>
 </resources>

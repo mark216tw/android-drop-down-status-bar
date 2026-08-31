@@ -4,7 +4,7 @@ plugins {
 }
 
 base {
-    archivesName.set("dropdown-status-bar-v1.0.1")
+    archivesName.set("dropdown-status-bar-v1.0.2")
 }
 
 android {
@@ -15,8 +15,8 @@ android {
         applicationId = "com.dropdownstatusbar.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "1.0.1"
+        versionCode = 3
+        versionName = "1.0.2"
     }
 
     buildTypes {
