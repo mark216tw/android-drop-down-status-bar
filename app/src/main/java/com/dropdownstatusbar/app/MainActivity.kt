@@ -1,6 +1,5 @@
 package com.dropdownstatusbar.app
 
-import android.app.Activity
 import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
@@ -11,7 +10,7 @@ import android.widget.Switch
 import android.widget.TextView
 import android.widget.Toast
 
-class MainActivity : Activity() {
+class MainActivity : ThemedActivity() {
     private lateinit var preferences: AppPreferences
     private lateinit var statusText: TextView
     private lateinit var enableButton: Button
@@ -26,6 +25,10 @@ class MainActivity : Activity() {
         val notificationsOption = findViewById<RadioButton>(R.id.action_notifications)
         val quickSettingsOption = findViewById<RadioButton>(R.id.action_quick_settings)
         val vibrationSwitch = findViewById<Switch>(R.id.vibration_switch)
+
+        findViewById<android.view.View>(R.id.open_settings).setOnClickListener {
+            startActivity(Intent(this, SettingsActivity::class.java))
+        }
 
         when (preferences.defaultAction) {
             PanelAction.NOTIFICATIONS -> notificationsOption.isChecked = true

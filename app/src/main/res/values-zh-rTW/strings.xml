@@ -25,7 +25,7 @@
     <string name="continue_label">繼續</string>
     <string name="cancel">取消</string>
     <string name="privacy_policy">隱私權政策</string>
-    <string name="privacy_content">生效日期：2026 年 8 月 22 日\n\n「下拉通知欄」不會收集、儲存、傳送或分享任何個人資料。本 App 沒有網路權限，也不需要建立帳號。\n\n無障礙服務\n無障礙服務只在您操作時，呼叫 Android 的全域動作來開啟通知欄或快速設定。本 App 已停用視窗內容擷取，不會讀取通知內容、畫面內容、密碼或輸入文字。\n\n本機設定\n您選擇的預設動作與震動偏好只儲存在此裝置。若裝置已啟用 Android 備份，系統可能備份這些設定。\n\n權限\n震動權限只用於成功執行後的選用回饋。本 App 不會要求通知存取、位置、聯絡人、相機、麥克風或儲存空間權限。\n\n您可以隨時前往 Android 無障礙設定，停用「下拉通知欄」以停止所有無障礙功能。</string>
+    <string name="privacy_content">生效日期：2026 年 8 月 22 日\n\n「下拉通知欄」不會收集、儲存、傳送或分享任何個人資料。本 App 沒有網路權限，也不需要建立帳號。\n\n無障礙服務\n無障礙服務只在您操作時，呼叫 Android 的全域動作來開啟通知欄或快速設定。本 App 已停用視窗內容擷取，不會讀取通知內容、畫面內容、密碼或輸入文字。\n\n本機設定\n您選擇的預設動作、震動偏好與外觀選項只儲存在此裝置。若裝置已啟用 Android 備份，系統可能備份這些設定。\n\n權限\n震動權限只用於成功執行後的選用回饋。本 App 不會要求通知存取、位置、聯絡人、相機、麥克風或儲存空間權限。\n\n您可以隨時前往 Android 無障礙設定，停用「下拉通知欄」以停止所有無障礙功能。</string>
     <string name="close">關閉</string>
     <string name="accessibility_service_name">下拉通知欄</string>
     <string name="accessibility_service_description">點擊 App 捷徑時開啟通知欄或快速設定，且絕不擷取畫面內容。</string>
@@ -37,4 +37,18 @@
     <string name="widget_combined_description">上方開啟快速設定、下方開啟通知欄的 1×1 雙功能小工具</string>
     <string name="settings">設定</string>
     <string name="open_app_settings">開啟下拉通知欄設定</string>
+    <string name="back">返回</string>
+    <string name="appearance_settings">外觀設定</string>
+    <string name="appearance_description">選擇 App 的顯示方式，變更後會立即套用。</string>
+    <string name="theme_mode_title">顯示模式</string>
+    <string name="theme_mode_system">跟隨系統</string>
+    <string name="theme_mode_light">淺色</string>
+    <string name="theme_mode_dark">深色</string>
+    <string name="theme_color_title">主題色彩</string>
+    <string name="theme_color_blue">亮眼藍</string>
+    <string name="theme_color_pink">活潑粉紅</string>
+    <string name="theme_color_purple">鮮明紫</string>
+    <string name="theme_color_teal">清新青綠</string>
+    <string name="theme_color_orange">元氣橘</string>
+    <string name="theme_color_lime">活力萊姆綠</string>
 </resources>

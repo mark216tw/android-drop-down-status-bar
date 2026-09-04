@@ -6,7 +6,9 @@
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:navigationBarColor">@color/page_background</item>
         <item name="android:statusBarColor">@color/page_background</item>
-        <item name="android:colorAccent">@color/brand_primary</item>
+        <item name="android:colorAccent">?attr/colorBrand</item>
         <item name="android:windowActionModeOverlay">true</item>
+        <item name="colorBrand">@color/brand_blue</item>
+        <item name="colorOnBrand">@color/on_brand</item>
     </style>
 </resources>

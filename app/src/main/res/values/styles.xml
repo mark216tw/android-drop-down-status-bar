@@ -6,8 +6,30 @@
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:navigationBarColor">@color/page_background</item>
         <item name="android:statusBarColor">@color/page_background</item>
-        <item name="android:colorAccent">@color/brand_primary</item>
+        <item name="android:colorAccent">?attr/colorBrand</item>
         <item name="android:windowActionModeOverlay">true</item>
+        <item name="colorBrand">@color/brand_blue</item>
+        <item name="colorOnBrand">@color/on_brand</item>
+    </style>
+
+    <style name="Theme.DropDownStatusBar.Pink" parent="Theme.DropDownStatusBar">
+        <item name="colorBrand">@color/brand_pink</item>
+    </style>
+
+    <style name="Theme.DropDownStatusBar.Purple" parent="Theme.DropDownStatusBar">
+        <item name="colorBrand">@color/brand_purple</item>
+    </style>
+
+    <style name="Theme.DropDownStatusBar.Teal" parent="Theme.DropDownStatusBar">
+        <item name="colorBrand">@color/brand_teal</item>
+    </style>
+
+    <style name="Theme.DropDownStatusBar.Orange" parent="Theme.DropDownStatusBar">
+        <item name="colorBrand">@color/brand_orange</item>
+    </style>
+
+    <style name="Theme.DropDownStatusBar.Lime" parent="Theme.DropDownStatusBar">
+        <item name="colorBrand">@color/brand_lime</item>
     </style>
 
     <style name="Theme.DropDownStatusBar.Transparent" parent="android:style/Theme.Material.Light.NoActionBar">
@@ -38,26 +60,52 @@
     </style>
 
     <style name="Widget.DropDownStatusBar.PrimaryButton" parent="android:style/Widget.Material.Button.Colored">
-        <item name="android:backgroundTint">@color/brand_primary</item>
-        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:backgroundTint">?attr/colorBrand</item>
+        <item name="android:textColor">?attr/colorOnBrand</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="Widget.DropDownStatusBar.SecondaryButton" parent="android:style/Widget.Material.Button">
         <item name="android:backgroundTint">@color/card_background</item>
-        <item name="android:textColor">@color/brand_primary</item>
+        <item name="android:textColor">?attr/colorBrand</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="Widget.DropDownStatusBar.TextButton" parent="android:style/Widget.Material.Button.Borderless">
-        <item name="android:textColor">@color/brand_primary</item>
+        <item name="android:textColor">?attr/colorBrand</item>
         <item name="android:textAllCaps">false</item>
     </style>
 
     <style name="DropDownStatusBarOption">
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DropDownStatusBarColorOption" parent="DropDownStatusBarOption" />
+
+    <style name="DropDownStatusBarColorOption.Blue" parent="DropDownStatusBarColorOption">
+        <item name="android:buttonTint">@color/brand_blue</item>
+    </style>
+
+    <style name="DropDownStatusBarColorOption.Pink" parent="DropDownStatusBarColorOption">
+        <item name="android:buttonTint">@color/brand_pink</item>
+    </style>
+
+    <style name="DropDownStatusBarColorOption.Purple" parent="DropDownStatusBarColorOption">
+        <item name="android:buttonTint">@color/brand_purple</item>
+    </style>
+
+    <style name="DropDownStatusBarColorOption.Teal" parent="DropDownStatusBarColorOption">
+        <item name="android:buttonTint">@color/brand_teal</item>
+    </style>
+
+    <style name="DropDownStatusBarColorOption.Orange" parent="DropDownStatusBarColorOption">
+        <item name="android:buttonTint">@color/brand_orange</item>
+    </style>
+
+    <style name="DropDownStatusBarColorOption.Lime" parent="DropDownStatusBarColorOption">
+        <item name="android:buttonTint">@color/brand_lime</item>
     </style>
 </resources>

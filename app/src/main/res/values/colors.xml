@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="brand_primary">#2F6BFF</color>
+    <color name="brand_blue">#2F6BFF</color>
+    <color name="brand_pink">#D93878</color>
+    <color name="brand_purple">#7547E8</color>
+    <color name="brand_teal">#087F73</color>
+    <color name="brand_orange">#C34A18</color>
+    <color name="brand_lime">#5D7A12</color>
+    <color name="on_brand">#FFFFFFFF</color>
     <color name="page_background">#F5F7FC</color>
     <color name="card_background">#FFFFFFFF</color>
     <color name="card_border">#FFE0E5EF</color>
@@ -10,5 +16,5 @@
     <color name="status_enabled_text">#FF126B39</color>
     <color name="status_disabled_background">#FFFFE9E6</color>
     <color name="status_disabled_text">#FFA63125</color>
-    <color name="launcher_background">#FF2F6BFF</color>
+    <color name="launcher_background">#FFC4B5FD</color>
 </resources>
