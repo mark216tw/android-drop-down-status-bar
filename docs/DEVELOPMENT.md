@@ -38,37 +38,39 @@ android:canRetrieveWindowContent="false"
 
 專案不宣告網路權限或通知存取權。
 
-## Debug 建置
+## Prerelease 建置
 
 Windows：
 
 ```powershell
-.\gradlew.bat assembleDebug
+.\gradlew.bat assemblePrerelease
 ```
 
 macOS 或 Linux：
 
 ```bash
-./gradlew assembleDebug
+./gradlew assemblePrerelease
 ```
 
-Debug 版本具有以下識別：
+Prerelease 版本具有以下識別：
 
-- 版本名稱：`1.0.2-debug`
+- 版本名稱：`1.0.2-prerelease`
+- Build Type：`prerelease`
 - App 名稱：`下拉通知欄`
-- APK：`dropdown-status-bar-v1.0.2-debug.apk`
+- APK：`dropdown-status-bar-v1.0.2-prerelease.apk`
+- 啟用 R8 程式碼壓縮與最佳化
 - 使用 Android Debug Key 簽署
 
 ## 程式品質驗證
 
 ```powershell
-.\gradlew.bat lintDebug
+.\gradlew.bat lintPrerelease
 ```
 
 也可以一次執行建置及 Lint：
 
 ```powershell
-.\gradlew.bat assembleDebug lintDebug
+.\gradlew.bat assemblePrerelease lintPrerelease
 ```
 
 ## Release 建置

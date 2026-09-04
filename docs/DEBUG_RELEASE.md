@@ -1,17 +1,19 @@
-# Debug 測試版本說明
+# Prerelease 測試版本說明
 
 ## 版本資訊
 
-- 版本：`1.0.2-debug`
+- 版本：`1.0.2-prerelease`
 - Git 標籤：`v1.0.2-debug`
 - 發布狀態：GitHub Pre-release
-- APK：`dropdown-status-bar-v1.0.2-debug.apk`
+- Build Type：`prerelease`
+- APK：`dropdown-status-bar-v1.0.2-prerelease.apk`
+- 壓縮：R8 已啟用
 - 簽章：Android Debug Key
-- SHA-256：`a9474fc0d6f3897b6fa5af8fa1c73d6054b39130a850233bc3247ebec9000c3d`
+- SHA-256：`c347aeac4de2f5d4408ac99d67f635f7d5b27153489cc907beddfb906289bc2a`
 
 ## 重要警告
 
-此 APK 是開發階段的 Debug 測試版本，不是正式版本。
+此 APK 是啟用 R8 壓縮並使用 Debug 金鑰簽署的 Prerelease 測試版本，不是正式版本。
 
 - 僅供功能驗證及問題回報。
 - Debug 簽章不適合正式發布。
@@ -21,13 +23,17 @@
 
 ## 本次更新
 
-- 新增第三個 `1×1` 雙功能小工具。
-- 雙功能小工具上半部開啟快速設定，下半部開啟通知欄。
-- 上下區域使用獨立點擊動作、圖示、底色及無障礙內容描述。
+- 新增系統、淺色及深色顯示模式。
+- 新增六種可即時切換的主題色彩。
+- 狀態列及導覽列會跟隨介面明暗模式。
+- App 圖示改為單一淡紫色背景。
+- 新增 `prerelease` Build Type 並啟用 R8 壓縮。
 
 ## 已驗證項目
 
-- Debug APK 建置成功。
+- Prerelease APK 建置成功。
+- R8 mapping 檔案已產生。
+- APK 已使用 Android Debug Key 簽署。
 - Release 程式碼建置成功，但未配置正式簽章。
 - Android Lint 完成且沒有錯誤。
 - APK 最低支援 Android 8.0。

@@ -2,12 +2,12 @@
 
 [![授權條款](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84.svg)](docs/DEVELOPMENT.md)
-[![版本](https://img.shields.io/badge/版本-1.0.2--debug-orange.svg)](https://github.com/mark216tw/android-drop-down-status-bar/releases)
+[![版本](https://img.shields.io/badge/版本-1.0.2--prerelease-orange.svg)](https://github.com/mark216tw/android-drop-down-status-bar/releases)
 
 「下拉通知欄」是一個輕量 Android 工具，讓使用者透過 App 圖示或桌面小工具，一鍵展開通知欄或快速設定。主要用途是改善大螢幕及單手操作時，不容易觸碰螢幕頂端的問題。
 
 > [!WARNING]
-> 目前 GitHub Release 提供的是 **Debug 測試版本**，使用 Android Debug Key 簽署，僅供功能測試，不是正式發行版本，請勿用於正式部署。
+> 目前 GitHub Release 提供的是 **Prerelease 測試版本**，已啟用 R8 壓縮並使用 Android Debug Key 簽署，僅供功能測試，不是正式發行版本，請勿用於正式部署。
 
 ## 功能
 
@@ -29,13 +29,13 @@
 - 必須由使用者手動啟用「下拉通知欄」無障礙服務
 - 部分品牌裝置可能受到省電策略、鎖定畫面或企業管理政策限制
 
-## 安裝 Debug 版本
+## 安裝 Prerelease 版本
 
 1. 前往 [GitHub Releases](https://github.com/mark216tw/android-drop-down-status-bar/releases)。
 2. 找到標示為 **Pre-release** 的 `v1.0.2-debug`。
-3. 下載 `dropdown-status-bar-v1.0.2-debug.apk`。
+3. 下載 `dropdown-status-bar-v1.0.2-prerelease.apk`。
 4. 依 Android 提示允許該來源安裝未知應用程式。
-5. 安裝後的 App 名稱為「下拉通知欄」；請由 APK 檔名及版本資訊確認這是 Debug 測試版。
+5. 安裝後的 App 名稱為「下拉通知欄」；請由 APK 檔名及版本資訊確認這是 Prerelease 測試版。
 
 完整操作方式請參閱[使用指南](docs/USER_GUIDE.md)。
 
@@ -59,19 +59,19 @@
 Windows：
 
 ```powershell
-.\gradlew.bat assembleDebug
+.\gradlew.bat assemblePrerelease
 ```
 
 macOS 或 Linux：
 
 ```bash
-./gradlew assembleDebug
+./gradlew assemblePrerelease
 ```
 
 產出的 APK 位於：
 
 ```text
-app/build/outputs/apk/debug/dropdown-status-bar-v1.0.2-debug.apk
+app/build/outputs/apk/prerelease/dropdown-status-bar-v1.0.2-prerelease.apk
 ```
 
 開發環境與驗證指令請參閱[開發文件](docs/DEVELOPMENT.md)。
@@ -80,7 +80,7 @@ app/build/outputs/apk/debug/dropdown-status-bar-v1.0.2-debug.apk
 
 - [使用指南](docs/USER_GUIDE.md)
 - [開發與建置](docs/DEVELOPMENT.md)
-- [Debug 測試版本說明](docs/DEBUG_RELEASE.md)
+- [Prerelease 測試版本說明](docs/DEBUG_RELEASE.md)
 - [App 圖示設計規格](docs/ICON_SPEC.md)
 - [隱私權政策](docs/PRIVACY_POLICY.md)
 - [版本紀錄](CHANGELOG.md)
